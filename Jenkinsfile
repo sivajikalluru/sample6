@@ -1,6 +1,7 @@
 pipeline {
+ agent any
 stages {
-stage("prod Env") {
+stage("dev Env") {
 steps {
 bat("dir")
 }
