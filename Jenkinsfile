@@ -1,6 +1,6 @@
 pipeline {
 stages {
-stage("Dev Env") {
+stage("qa Env") {
 steps {
 bat("dir")
 }
